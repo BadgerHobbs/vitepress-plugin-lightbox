@@ -1,0 +1,38 @@
+{
+  "name": "vitepress-plugin-lightbox",
+  "version": "1.0.0",
+  "description": "Plugin for VitePress to add support for viewing images in a lightbox.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadgerHobbs/vitepress-plugin-lightbox.git"
+  },
+  "keywords": [
+    "vitepress",
+    "lightbox",
+    "markdown",
+    "images"
+  ],
+  "author": "BadgerHobbs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BadgerHobbs/vitepress-plugin-lightbox/issues"
+  },
+  "homepage": "https://github.com/BadgerHobbs/vitepress-plugin-lightbox#readme",
+  "dependencies": {
+    "medium-zoom": "^1.1.0",
+    "photoswipe": "^5.4.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "vitepress-plugin-lightbox-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "dotenv": "^16.4.5",
+        "vitepress": "^1.0.0-rc.45"
+    },
+    "dependencies": {
+        "vitepress-plugin-lightbox": "file:../vitepress-plugin-lightbox-1.0.0.tgz"
+    }
+}
