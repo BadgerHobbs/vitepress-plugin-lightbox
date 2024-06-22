@@ -2,7 +2,9 @@
 
 [![Publish to NPM](https://github.com/BadgerHobbs/vitepress-plugin-lightbox/actions/workflows/publish.yml/badge.svg)](https://github.com/BadgerHobbs/vitepress-plugin-lightbox/actions/workflows/publish.yml) [![Deploy Example](https://github.com/BadgerHobbs/vitepress-plugin-lightbox/actions/workflows/deploy-example.yml/badge.svg)](https://github.com/BadgerHobbs/vitepress-plugin-lightbox/actions/workflows/deploy-example.yml)
 
-Plugin for VitePress to add support for viewing images in lightboxes, you can check out the example site [here](https://badgerhobbs.github.io/vitepress-plugin-lightbox/). 
+Plugin for VitePress to add support for viewing images in lightboxes, you can check out the example site [here](https://badgerhobbs.github.io/vitepress-plugin-lightbox/). It is also available on [NPM](https://www.npmjs.com/package/vitepress-plugin-lightbox).
+
+![vitepress-plugin-lightbox](https://github.com/BadgerHobbs/vitepress-plugin-lightbox/assets/23462440/d52b5ca7-2062-407e-9e0b-ae0d85d31e2c)
 
 This plugin is built using the [medium-zoom](https://github.com/francoischalifour/medium-zoom) package.
 
@@ -88,11 +90,13 @@ onMounted(() => {
 
 ## Usage
 
-When you add images to your markdown files, like the example below, they are now can automatically be clicked to view in a lightbox.
+When you add images to your markdown files, like the example below, they are now can automatically be clicked to view in a lightbox. See the `/example` directory within the repository for a full working example of how to use the plugin with VitePress.
 
 ```md
 ![image-1.0b9fa00a.jpg](./images/image-1.0b9fa00a.jpg)
 ```
+
+To view working examples deployed within a VitePress static site instance, you can checkout the repository example deployed via GitHub pages [here](https://badgerhobbs.github.io/vitepress-plugin-d2/).
 
 ## License
 
