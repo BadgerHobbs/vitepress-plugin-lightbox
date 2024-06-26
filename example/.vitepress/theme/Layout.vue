@@ -1,15 +1,16 @@
 <script setup>
 import DefaultTheme from "vitepress/theme";
+import { useRouter } from "vitepress";
+import mediumZoom from "medium-zoom";
 
 const { Layout } = DefaultTheme;
 
-import { onMounted } from "vue";
-import mediumZoom from "medium-zoom";
-onMounted(() => {
+const router = useRouter();
+router.onAfterRouteChanged = () => {
   mediumZoom("[data-zoomable]", {
     background: "transparent",
   });
-});
+};
 </script>
 
 <template>
