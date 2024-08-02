@@ -105,7 +105,7 @@ When you add images to your markdown files, like the example below, they are now
 ![image-1.0b9fa00a.jpg](./images/image-1.0b9fa00a.jpg)
 ```
 
-To view working examples deployed within a VitePress static site instance, you can checkout the repository example deployed via GitHub pages [here](https://badgerhobbs.github.io/vitepress-plugin-d2/).
+To view working examples deployed within a VitePress static site instance, you can checkout the repository example deployed via GitHub pages [here](https://badgerhobbs.github.io/vitepress-plugin-lightbox/).
 
 ## License
 
