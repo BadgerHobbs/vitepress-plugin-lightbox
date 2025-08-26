@@ -22,10 +22,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: ./example
-
 jobs:
   # Build job
   build:
@@ -43,10 +39,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Install dependencies
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Build plugin
+        run: npm run build
+
+      - name: Install example dependencies
+        working-directory: ./example
         run: npm ci
 
       - name: Build with VitePress
+        working-directory: ./example
         env:
           BASE_PATH: "/vitepress-plugin-lightbox/"
         run: npm run docs:build
