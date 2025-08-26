@@ -18,7 +18,7 @@ const setupMediumZoom = () => {
 onMounted(setupMediumZoom);
 
 // Subscribe to route changes to re-apply medium zoom effect
-router.onAfterRouteChanged = setupMediumZoom;
+router.onAfterRouteChange = setupMediumZoom;
 </script>
 
 <template>
