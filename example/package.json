@@ -16,6 +16,6 @@
         "vitepress": "^1.0.0-rc.45"
     },
     "dependencies": {
-        "vitepress-plugin-lightbox": "^1.0.0"
+        "vitepress-plugin-lightbox": "file:.."
     }
 }
