@@ -1,6 +1,6 @@
 {
   "name": "vitepress-plugin-lightbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin for VitePress to add support for viewing images in a lightbox.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
