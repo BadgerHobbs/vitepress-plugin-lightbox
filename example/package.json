@@ -12,8 +12,8 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "dotenv": "^16.4.5",
-        "vitepress": "^1.0.0-rc.45"
+        "dotenv": "^17.2.1",
+        "vitepress": "^1.6.4"
     },
     "dependencies": {
         "vitepress-plugin-lightbox": "file:.."
